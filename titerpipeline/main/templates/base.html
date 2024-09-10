@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="='en">
+
+<!-- Base page. This is extended across the whole website -->
+<head>
+    <!-- linking to styling sheet, google fonts, bootstrap, etc. -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Titer Pipeline Web App</title>
+</head>
+
+
+<body> <!-- body section, extended to each html page -->
+    {% block content %} Content {% endblock %}
+    
+</body>
+
