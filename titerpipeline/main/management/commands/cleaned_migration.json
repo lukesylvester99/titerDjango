@@ -276,7 +276,7 @@
     },
     {
         "Cell Line": "JW18",
-        "Date Collected": "+020124-08-22T07:00:00.000Z",
+        "Date Collected": "2024-08-22T07:00:00.000Z",
         "Experiment ID": "SI",
         "Extraction Date": "2024-09-04T07:00:00.000Z",
         "Infection": "wMel",
@@ -287,7 +287,7 @@
     },
     {
         "Cell Line": "JW18",
-        "Date Collected": "+020124-08-22T07:00:00.000Z",
+        "Date Collected": "2024-08-22T07:00:00.000Z",
         "Experiment ID": "SI",
         "Extraction Date": "2024-09-04T07:00:00.000Z",
         "Infection": "wMel",
@@ -298,7 +298,7 @@
     },
     {
         "Cell Line": "S2",
-        "Date Collected": "+020124-08-22T07:00:00.000Z",
+        "Date Collected": "2024-08-22T07:00:00.000Z",
         "Experiment ID": "SI",
         "Extraction Date": "2024-09-04T07:00:00.000Z",
         "Infection": "wMel",
@@ -309,7 +309,7 @@
     },
     {
         "Cell Line": "S2",
-        "Date Collected": "+020124-08-22T07:00:00.000Z",
+        "Date Collected": "2024-08-22T07:00:00.000Z",
         "Experiment ID": "SI",
         "Extraction Date": "2024-09-04T07:00:00.000Z",
         "Infection": "wMel",
@@ -320,7 +320,7 @@
     },
     {
         "Cell Line": "JW18",
-        "Date Collected": "+020124-08-22T07:00:00.000Z",
+        "Date Collected": "2024-08-22T07:00:00.000Z",
         "Experiment ID": "SI",
         "Extraction Date": "2024-09-04T07:00:00.000Z",
         "Infection": "wMel",
@@ -331,7 +331,7 @@
     },
     {
         "Cell Line": "JW18",
-        "Date Collected": "+020124-08-22T07:00:00.000Z",
+        "Date Collected": "2024-08-22T07:00:00.000Z",
         "Experiment ID": "SI",
         "Extraction Date": "2024-09-04T07:00:00.000Z",
         "Infection": "wMel",
@@ -342,7 +342,7 @@
     },
     {
         "Cell Line": "S2",
-        "Date Collected": "+020124-08-22T07:00:00.000Z",
+        "Date Collected": "2024-08-22T07:00:00.000Z",
         "Experiment ID": "SI",
         "Extraction Date": "2024-09-04T07:00:00.000Z",
         "Infection": "wMel",
@@ -353,7 +353,7 @@
     },
     {
         "Cell Line": "S2",
-        "Date Collected": "+020124-08-22T07:00:00.000Z",
+        "Date Collected": "2024-08-22T07:00:00.000Z",
         "Experiment ID": "SI",
         "Extraction Date": "2024-09-04T07:00:00.000Z",
         "Infection": "wMel",
@@ -537,16 +537,5 @@
         "Sample ID": "LS_SI_49",
         "Sample Label": "LS_SI_49 S2 wMel 0509B2",
         "Split (DDMMRep)": "0509B2"
-    },
-    {
-        "Cell Line": "",
-        "Date Collected": "",
-        "Experiment ID": "SI",
-        "Extraction Date": "",
-        "Infection": "",
-        "Initials": "",
-        "Sample ID": "_SI_50",
-        "Sample Label": "",
-        "Split (DDMMRep)": ""
     }
 ]
