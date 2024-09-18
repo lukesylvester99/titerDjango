@@ -7,14 +7,23 @@
             <h1 id="welcome_message">Russell Lab Titer Pipeline Program</h1>
         </div>
 
-        <h4 id="welcome_message2">Select from previous entries, or add a new one below</h4>
+        <div class="experiments">
+
+            <h3 id="welcome_message2">Select from active experiments</h4>
+                <div class="experiments_listed">
+                    {% for experiment in experiments %}
+                        <a>{{ experiment }}</a>
+                    {% endfor %}
+                </div>
+
+        </div>
         
 
               
         
-        <!--wtform to handle CSV upload from titer pipeline to db-->
+        <!--connects to db and allows user to build a custom filter-->
         <div class="upload_csv">
-            <h2 id="upload_csv_message">Upload new CSV file to Database</h2>
+            <h2 id="upload_csv_message">Custom Query from Database</h2>
         
             
         </div>

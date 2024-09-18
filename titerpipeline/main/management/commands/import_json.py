@@ -8,19 +8,18 @@ from datetime import datetime
 class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         # Determine the correct path to the JSON file
-        base_dir = os.path.dirname(os.path.abspath(__file__))  # Directory of the current script
+        base_dir = os.path.dirname(os.path.abspath(__file__))  # was having trouble with the path to the json file so I used this instead of a direct path
         json_file_path = os.path.join(base_dir, 'cleaned_migration.json')
 
         # Load JSON data from file
         with open(json_file_path, 'r') as file:  
             data = json.load(file)
 
+        #filter json obj to get the fields I want/need
         for item in data:
-            #filter json obj to get the fields I want/need
             experiment_name = item.get('Experiment ID')  
             sample_id = item.get('Sample ID')    
 
-            
             created_date_str = item.get('Date Collected')
 
             # Check if 'Date Collected' exists and is in a valid format
