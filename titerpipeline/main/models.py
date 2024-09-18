@@ -7,6 +7,7 @@ class Experiment(models.Model):
 class Sample(models.Model):
     sample_id = models.CharField(max_length=30)
     created_date = models.DateField()
+    sample_label = models.CharField(max_length=150, default="")
     experiment = models.ForeignKey(Experiment, on_delete=models.CASCADE)
 
 class Sample_Metadata(models.Model):
