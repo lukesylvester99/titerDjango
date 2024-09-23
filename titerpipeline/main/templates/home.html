@@ -7,29 +7,39 @@
             <h1 id="welcome_message">Russell Lab Titer Pipeline Program</h1>
         </div>
 
+        <div class="form_alignment">
         <div class="experiments">
 
             <h3 id="welcome_message2">Select from active experiments</h4>
                 <div class="experiments_listed">
-                    {% for experiment in experiments %}
-                        <a>{{ experiment }}</a>
-                    {% endfor %}
+                    <form method="POST" action="" name="exp_selection" class="exp-selection-form">
+                        <ul class = 'exp_list'>
+                            {% for experiment in experiments %}
+                                <li class="item">
+                                    <label  for="exp_{{ loop.index }}">{{ experiment }}</label>
+                                    <input class='item' type="radio" id="exp_{{ loop.index }}" name="exp_selection" value="{{ experiment }}" required>
+                                </li>
+                            {% endfor %}
+                        </ul>
                 </div>
-
         </div>
-        
-
-              
-        
-        <!--connects to db and allows user to build a custom filter-->
-        <div class="upload_csv">
-            <h2 id="upload_csv_message">Custom Query from Database</h2>
-        
-            
+                        <!-- Submit button to submit the form -->
+                <input id="submit_btn" type="submit" value="Select">
+                </form>
         </div>
-
     </div>
     
+
+
+
+
+
+         <!--connects to db and allows user to build a custom filter-->
+    <div class="query_db">
+            <h2 id="upload_csv_message">Custom Query from Database</h2>
+            
+                
+     </div>
     
     <!-- When styling the upload button for the csv file, the default form looked ugly and was hard to style bc 
      of the way that HTML handles forms. Instead, I made some custom text, "Choose File" w class name of "custom-file-upload"
