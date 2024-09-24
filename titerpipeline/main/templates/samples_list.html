@@ -5,13 +5,42 @@
     <div class="samples_in_exp">
         <h1>Samples for Experiment: {{ experiment.name }}</h1>
     
-        <ul>
-            {% for sample in samples %}
-                <li>{{ sample.sample_label }} - Collected on: {{ sample.created_date }}</li>
-            {% empty %}
-                <li>No samples found for this experiment.</li>
-            {% endfor %}
-        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sample ID</th>
+                    <th>Sample Label</th>
+                    <th>Created Date</th>
+                    <th>Metadata</th> 
+                </tr>
+            </thead>
+            <tbody>
+                {% for sample in samples %}
+                    <tr>
+                        <td>{{ sample.sample_id }}</td>
+                        <td>{{ sample.sample_label }}</td>
+                        <td>{{ sample.created_date }}</td>
+                        <td>
+                            {% for meta in metadata %}
+                            {% if meta.sample_id == sample %}
+                                <ul class="sample_metadata_in_exp">
+                                    {% for key, value in meta.metadata.items %}
+                                        {% if key != 'Initials' and key != 'Split (DDMMRep)' %}  <!-- filtering out these json items, since theyre already in label info -->
+                                        <li><strong>{{ key }}:</strong> {{ value }}</li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="3">No samples found for this experiment.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     
         <a href="{% url 'home' %}">Back to home</a>
     

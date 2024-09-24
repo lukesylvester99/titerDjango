@@ -17,8 +17,8 @@ def samples_by_experiment(request):
         experiment = get_object_or_404(Experiment, name=experiment_ID) #get experiment obj from db
 
         samples = Sample.objects.filter(experiment=experiment) #get samples associated with that exp
-        #metadata = Sample_Metadata.objects.filter
+        metadata = Sample_Metadata.objects.filter(sample_id__in=samples)
 
-        return render(request, "samples_list.html", {'experiment': experiment, 'samples': samples})
+        return render(request, "samples_list.html", {'experiment': experiment, 'samples': samples, 'metadata':metadata})
     else:
             return redirect('home')
