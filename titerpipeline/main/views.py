@@ -1,6 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect,  get_object_or_404
 from django.http import HttpResponse
-from main.models import Experiment
+from main.models import Experiment, Sample, Sample_Metadata
 
 # Create your views here.
 def home(request):
@@ -11,5 +11,14 @@ def home(request):
 
     return render(request, "home.html", {"experiments":experiments_value})
 
-def v1(response):
-    return HttpResponse("This is V1")
+def samples_by_experiment(request):
+    if request.method == 'POST':
+        experiment_ID = request.POST.get('exp_selection') #get form selection from homepage
+        experiment = get_object_or_404(Experiment, name=experiment_ID) #get experiment obj from db
+
+        samples = Sample.objects.filter(experiment=experiment) #get samples associated with that exp
+        #metadata = Sample_Metadata.objects.filter
+
+        return render(request, "samples_list.html", {'experiment': experiment, 'samples': samples})
+    else:
+            return redirect('home')

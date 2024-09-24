@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+    {% block content %}
+
+    <div class="samples_in_exp">
+        <h1>Samples for Experiment: {{ experiment.name }}</h1>
+    
+        <ul>
+            {% for sample in samples %}
+                <li>{{ sample.sample_label }} - Collected on: {{ sample.created_date }}</li>
+            {% empty %}
+                <li>No samples found for this experiment.</li>
+            {% endfor %}
+        </ul>
+    
+        <a href="{% url 'home' %}">Back to home</a>
+    
+    </div>
+
+    {% endblock %}

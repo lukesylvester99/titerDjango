@@ -12,7 +12,8 @@
 
             <h3 id="welcome_message2">Select from active experiments</h4>
                 <div class="experiments_listed">
-                    <form method="POST" action="" name="exp_selection" class="exp-selection-form">
+                    <form method="POST" action="{% url 'samples_by_experiment' %}" name="exp_selection" class="exp-selection-form">
+                        {% csrf_token %}
                         <ul class = 'exp_list'>
                             {% for experiment in experiments %}
                                 <li class="item">
