@@ -198,3 +198,23 @@ table tbody tr:nth-child(even) {
 .sample_metadata_in_exp li{
     list-style: none;
 }
+
+.btn{
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 6px;
+    background-color: #6200EE;
+    color: white;
+    font-size: 1em;
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+    outline: none;
+    margin: 0;
+    max-height: 40px;
+    margin-bottom: 0;
+}
+
+.btn:hover {
+    background-color: #5300d2; 
+    transform: scale(1.05); 
+}
