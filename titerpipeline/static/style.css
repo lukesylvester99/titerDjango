@@ -147,8 +147,16 @@ body {
     box-sizing: border-box;
     margin-top: 0;
     letter-spacing: 1px;
+    
 }
 
+.query_db_form{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-between;
+    
+}
 
 /* */
 /* setting style for samples_list.html */

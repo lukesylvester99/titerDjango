@@ -33,13 +33,52 @@
 
          <!--connects to db and allows user to build a custom filter-->
     <div class="query_db">
-            <h2 id="upload_csv_message">Custom Query from Database</h2>
-            <h4>filter 1</h4>
-            <h4>filter 2</h4>
-            <h4>filter 3</h4>
-            <h4>filter 4</h4>
+            <h1>Create Custom Filter</h1>
+            <br>
+            <form class='query_db_form'method="POST" action="{% url 'filter_samples' %}">
+                {% csrf_token %}
+                
+                <!-- Cell Type Filter -->
+                <div>
+                    <label for="cell_type">Cell Type:</label>
+                    <select name="cell_type" id="cell_type">
+                        {% for choice in form.cell_type.field.choices %}
+                            <option value="{{ choice.0 }}" {% if form.cell_type.value == choice.0 %}selected{% endif %}>
+                                {{ choice.1 }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+        
+                <!-- Date Range Filter -->
+                <div>
+                    <label for="start_date">Start Date:</label>
+                    {{ form.start_date }}
+                </div>
+                <div>
+                    <label for="end_date">End Date:</label>
+                    {{ form.end_date }}
+                </div>
+        
+                <!-- Infection Status Filter -->
+                <div>
+                    <label for="infection_status">Infection Status:</label>
+                    <select name="infection_status" id="infection_status">
+                        {% for choice in form.infection_status.field.choices %}
+                            <option value="{{ choice.0 }}" {% if form.infection_status.value == choice.0 %}selected{% endif %}>
+                                {{ choice.1 }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+        
+                <!-- Submit Button -->
+                <div>
+                   <button type="submit" class="btn btn-primary">Apply Filter</button>
+                </div>
+            </form>
 
-            <button type="submit" class="btn btn-primary">Apply Filter</button>
+           <br>     
      </div>
     
     
