@@ -3,32 +3,24 @@
     {% block content %}
 
         <h1>Filtered Samples</h1>
-
-        <!-- Show the filter form again -->
-        <form method="POST" action="{% url 'filter_samples' %}">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit">Apply Filter</button>
-        </form>
-
-        <!-- Display Filtered Results -->
-        <h2>Results</h2>
         <table>
             <thead>
                 <tr>
                     <th>Sample ID</th>
-                    <th>Cell Type</th>
+                    <th>Cell Line</th>
+                    <th>Created Date</th>
                     <th>Infection Status</th>
-                    <th>Date Created</th>
+                    <th>Plate Number</th>
                 </tr>
             </thead>
             <tbody>
                 {% for sample in samples %}
                     <tr>
-                        <td>{{ sample.sample_id }}</td>
-                        <td>{{ sample.metadata.cell_line }}</td>
-                        <td>{{ sample.metadata.infection }}</td>
+                        <<td>{{ sample.sample_id }}</td>
+                        <td>{{ sample.sample_metadata.metadata.cell_line }}</td>
                         <td>{{ sample.created_date }}</td>
+                        <td>{{ sample.sample_metadata.metadata.infection }}</td>
+                        <td>{{ sample.read_pair.plate_number }}</td>
                     </tr>
                 {% empty %}
                     <tr>

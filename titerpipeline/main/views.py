@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect,  get_object_or_404
 from main.models import Experiment, Sample, Sample_Metadata, Read_Pair
-from .forms import SampleFilterForm
-from django.db.models import Q
+
 
 
 def home(request):
@@ -62,34 +61,40 @@ def samples_by_experiment(request):
     
 
 def filter_samples(request):
-    form = SampleFilterForm(request.POST or None)
+    # Initialize an empty queryset for the Sample model
+    samples = Sample.objects.all()  
 
-    # Start with a basic query, get all samples
-    samples = Sample.objects.all()
+    # Access the form data from POST request
+    cell_line = request.POST.get('cell_line', None)
+    start_date = request.POST.get('start_date', None)
+    end_date = request.POST.get('end_date', None)
+    infection_status = request.POST.get('infection_status', None)
+    users = request.POST.get('users', None)
+    plate_num = request.POST.get('plate_num', None)
 
-    if request.method == 'POST' and form.is_valid():
-        cell_type = form.cleaned_data['cell_type']
-        start_date = form.cleaned_data['start_date']
-        end_date = form.cleaned_data['end_date']
-        infection_status = form.cleaned_data['infection_status']
 
-        # Build the filter dynamically
-        query = Q()
+    # Filtering by cell line from Sample_Metadata JSON field
+    if cell_line:
+        samples = samples.filter(sample_metadata__metadata__Cell_Line=cell_line) 
 
-        if cell_type:
-            query &= Q(metadata__cell_line=cell_type)
+    # Filter by date range (assuming created_date is in Sample model)
+    if start_date:
+        samples = samples.filter(created_date__gte=start_date)
 
-        if start_date and end_date:
-            query &= Q(created_date__range=[start_date, end_date])
+    if end_date:
+        samples = samples.filter(created_date__lte=end_date)
 
-        if infection_status:
-            query &= Q(metadata__infection=infection_status)
+    # Filtering by infection status from Sample_Metadata JSON field
+    if infection_status:
+        samples = samples.filter(sample_metadata__metadata__Infection=infection_status)
 
-        # Apply the filter to the samples queryset
-        samples = samples.filter(query)
+    # Filtering by user (assuming 'user' is a field in Sample or related model)
+    if users:
+        samples = samples.filter(sample_metadata__metadata__Initials=users)
 
-    # Render the page with the form and filtered samples
-    return render(request, 'filtered_samples.html', {
-        'form': form,
-        'samples': samples,
-    })
+    # Filtering by plate number from Read_Pair model
+    if plate_num:
+        samples = samples.filter(read_pair__plate_number=plate_num)
+
+    # Render the filtered samples to the template
+    return render(request, 'filtered_samples.html', {'samples': samples})

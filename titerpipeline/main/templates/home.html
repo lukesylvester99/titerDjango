@@ -34,6 +34,7 @@
          <!--connects to db and allows user to build a custom filter-->
     <div class="query_db">
             <h1 id="filter_header">Create Custom Filter</h1>
+            <h5> Please remember to refresh between queries</h5>
             <br>
             <form class='query_db_form'method="POST" action="{% url 'filter_samples' %}">
                 {% csrf_token %}
