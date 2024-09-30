@@ -23,7 +23,7 @@ def home(request):
     unique_cell_lines = set()
     for meta in metadata:
         for key, value in meta.metadata.items():
-            if key == 'Cell Line':
+            if key == 'Cell_Line':
                 unique_cell_lines.add(value)
     
      # Collect unique Users from metadata

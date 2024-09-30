@@ -35,7 +35,7 @@ class Command(BaseCommand):
 
             sample_label = item.get('Sample Label')      
             metadata = {
-                "Cell Line": item.get('Cell Line'),
+                "Cell_Line": item.get('Cell Line'),
                 "Infection": item.get('Infection'),
                 "Initials": item.get('Initials'),
                 "Split (DDMMRep)": item.get('Split (DDMMRep)')
