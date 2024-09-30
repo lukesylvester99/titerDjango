@@ -1,17 +1,52 @@
 from django.shortcuts import render, redirect,  get_object_or_404
-from main.models import Experiment, Sample, Sample_Metadata
+from main.models import Experiment, Sample, Sample_Metadata, Read_Pair
 from .forms import SampleFilterForm
 from django.db.models import Q
 
 
-# Create your views here.
 def home(request):
-    experiments_dict = Experiment.objects.values('name') #fetching data from Experiments model, returns dict
-    
-    #sorted list of experiments. Stores just the exp name, rather than the dict format
+    #fetching data from Experiments model, returns dict
+    experiments_dict = Experiment.objects.values('name') 
+        #sorted list of experiments. Stores just the exp name, rather than the dict format
     experiments_value = [exp['name'] for exp in experiments_dict]
 
-    return render(request, "home.html", {"experiments":experiments_value})
+    #get meta data so that I can extract the obj later in html form
+    metadata = Sample_Metadata.objects.all()
+    
+    # Collect unique infection values from metadata
+    unique_infections = set()
+    for meta in metadata:
+        for key, value in meta.metadata.items():
+            if key == 'Infection':
+                unique_infections.add(value)
+    
+     # Collect unique Cell Lines values from metadata
+    unique_cell_lines = set()
+    for meta in metadata:
+        for key, value in meta.metadata.items():
+            if key == 'Cell Line':
+                unique_cell_lines.add(value)
+    
+     # Collect unique Users from metadata
+    unique_users = set()
+    for meta in metadata:
+        for key, value in meta.metadata.items():
+            if key == 'Initials':
+                unique_users.add(value)
+
+    #holds plate numbers in data
+    plate_num_dict = Read_Pair.objects.values("plate_number")
+    plate_num_value = [num['plate_number'] for num in plate_num_dict] 
+    unique_plate_num_value = list(set(plate_num_value))#filters so each num is only represented once
+   
+    vars = {
+        "experiments":experiments_value,
+        'infections':unique_infections, 
+        'cell_lines':unique_cell_lines,
+        "users":unique_users,
+        "plate_num":unique_plate_num_value }
+
+    return render(request, "home.html", vars)
 
 def samples_by_experiment(request):
     if request.method == 'POST':

@@ -3,7 +3,7 @@ import os
 from main.models import Experiment, Sample, Sample_Metadata, Read_Pair  
 from django.core.management.base import BaseCommand
 from datetime import datetime 
-
+import random #for plate num. Delete once ready to deploy
 
 class Command(BaseCommand):
     def handle(self, *args, **kwargs):
@@ -42,7 +42,7 @@ class Command(BaseCommand):
             }  
             read1_path = f"/path/to/read1_{sample_id}.fastq" 
             read2_path = f"/path/to/read2_{sample_id}.fastq"  
-            plate_number = 1  
+            plate_number = random.randint(1, 4)  
 
             #create exp
             experiment, created = Experiment.objects.get_or_create(name=experiment_name) 

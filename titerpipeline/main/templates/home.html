@@ -33,47 +33,77 @@
 
          <!--connects to db and allows user to build a custom filter-->
     <div class="query_db">
-            <h1>Create Custom Filter</h1>
+            <h1 id="filter_header">Create Custom Filter</h1>
             <br>
             <form class='query_db_form'method="POST" action="{% url 'filter_samples' %}">
                 {% csrf_token %}
                 
-                <!-- Cell Type Filter -->
+                <!-- Cell Line Filter -->
                 <div>
-                    <label for="cell_type">Cell Type:</label>
-                    <select name="cell_type" id="cell_type">
-                        {% for choice in form.cell_type.field.choices %}
-                            <option value="{{ choice.0 }}" {% if form.cell_type.value == choice.0 %}selected{% endif %}>
-                                {{ choice.1 }}
-                            </option>
+                    <select name="cell_line" id="cell_line">
+                        <option style="color: #6200EE; font: bolder; font-size: larger;" value="">Cell Line</option>
+                        {% for cell_line in cell_lines %}
+                                <option value="{{ cell_line }}" >
+                                    {{ cell_line }}
+                                </option>
                         {% endfor %}
                     </select>
                 </div>
         
                 <!-- Date Range Filter -->
-                <div>
-                    <label for="start_date">Start Date:</label>
-                    {{ form.start_date }}
+                <div class="date_range">
+                    <label><strong>Sort Samples By Date</strong></label>
+                    
+                    <div>
+                        <label for="start_date">Starting Date:</label>
+                        <input type="date" id="start_date" name="start_date" pattern="\d{4}-\d{2}-\d{2}">
+                    </div>
+                
+                    <div>
+                        <label for="end_date">Ending Date:</label>
+                        <input type="date" id="end_date" name="end_date" pattern="\d{4}-\d{2}-\d{2}">
+                    </div>
                 </div>
-                <div>
-                    <label for="end_date">End Date:</label>
-                    {{ form.end_date }}
-                </div>
-        
+                
                 <!-- Infection Status Filter -->
                 <div>
-                    <label for="infection_status">Infection Status:</label>
                     <select name="infection_status" id="infection_status">
-                        {% for choice in form.infection_status.field.choices %}
-                            <option value="{{ choice.0 }}" {% if form.infection_status.value == choice.0 %}selected{% endif %}>
-                                {{ choice.1 }}
-                            </option>
+                        <option style="color: #6200EE; font: bolder; font-size: larger;" value="">Wolbachia Infection</option>
+                        {% for infection in infections %}
+                                <option value="{{ infection }}" >
+                                    {{ infection }}
+                                </option>
                         {% endfor %}
                     </select>
                 </div>
 
+                <!-- Users Filter -->
                 <div>
-                   <button type="submit" class="btn btn-primary">Apply Filter</button>
+                    <select name="users" id="users_samples">
+                        <option style="color: #6200EE; font: bolder; font-size: larger;" value="">Lab Member</option>
+                        {% for user in users %}
+                                <option value="{{ user }}" >
+                                    {{ user }}
+                                </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <!-- Plate Number Filter -->
+                <div>
+                    <select name="plate_num" id="plate_num">
+                        <option style="color: #6200EE; font: bolder; font-size: larger;" value="">Plate Number</option>
+                        {% for num in plate_num %}
+                                <option value="{{ num }}" >
+                                    {{ num }}
+                                </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+
+                <div>
+                   <button type="submit" id="submit_btn" class="query_btn">Apply Filter</button>
                 </div>
             </form>
 
