@@ -537,5 +537,27 @@
         "Sample ID": "LS_SI_49",
         "Sample Label": "LS_SI_49 S2 wMel 0509B2",
         "Split (DDMMRep)": "0509B2"
+    },
+    {
+        "Cell Line": "S2",
+        "Date Collected": "2024-09-05T07:00:00.000Z",
+        "Experiment ID": "Mixed infection",
+        "Extraction Date": "",
+        "Infection": "wMel",
+        "Initials": "LS",
+        "Sample ID": "LS_MI_Testing",
+        "Sample Label": "LS_MI_Testing S2 wMel 0509B2",
+        "Split (DDMMRep)": "0509B2"
+    },
+    {
+        "Cell Line": "S2",
+        "Date Collected": "2024-09-05T07:00:00.000Z",
+        "Experiment ID": "Riv84 Merill23",
+        "Extraction Date": "",
+        "Infection": "wMel",
+        "Initials": "LS",
+        "Sample ID": "LS_MI_Testing",
+        "Sample Label": "LS_MI_Testing S2 wMel 0509B2",
+        "Split (DDMMRep)": "0509B2"
     }
 ]

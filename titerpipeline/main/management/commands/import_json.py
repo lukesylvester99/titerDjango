@@ -3,24 +3,23 @@ import os
 from main.models import Experiment, Sample, Sample_Metadata, Read_Pair  
 from django.core.management.base import BaseCommand
 from datetime import datetime 
-
+import random #for plate num. Delete once ready to deploy
 
 class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         # Determine the correct path to the JSON file
-        base_dir = os.path.dirname(os.path.abspath(__file__))  # Directory of the current script
+        base_dir = os.path.dirname(os.path.abspath(__file__))  # was having trouble with the path to the json file so I used this instead of a direct path
         json_file_path = os.path.join(base_dir, 'cleaned_migration.json')
 
         # Load JSON data from file
         with open(json_file_path, 'r') as file:  
             data = json.load(file)
 
+        #filter json obj to get the fields I want/need
         for item in data:
-            #filter json obj to get the fields I want/need
             experiment_name = item.get('Experiment ID')  
             sample_id = item.get('Sample ID')    
 
-            
             created_date_str = item.get('Date Collected')
 
             # Check if 'Date Collected' exists and is in a valid format
@@ -36,14 +35,14 @@ class Command(BaseCommand):
 
             sample_label = item.get('Sample Label')      
             metadata = {
-                "Cell Line": item.get('Cell Line'),
+                "Cell_Line": item.get('Cell Line'),
                 "Infection": item.get('Infection'),
                 "Initials": item.get('Initials'),
                 "Split (DDMMRep)": item.get('Split (DDMMRep)')
             }  
             read1_path = f"/path/to/read1_{sample_id}.fastq" 
             read2_path = f"/path/to/read2_{sample_id}.fastq"  
-            plate_number = 1  
+            plate_number = random.randint(1, 4)  
 
             #create exp
             experiment, created = Experiment.objects.get_or_create(name=experiment_name) 
