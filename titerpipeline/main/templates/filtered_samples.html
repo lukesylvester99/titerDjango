@@ -6,8 +6,22 @@
             <h1 id="filtered_samples_header_message">Filtered Samples</h1>
             <div class="filter_btns">
                 <a class="btn" href="{% url 'home' %}">Back to home</a>
-                <a class="btn" href="">export to CSV</a>
+                
+                <!-- Hidden fields to pass the filter criteria -->
+                <div class="export_csv">
+                    <form method="GET" action="{% url 'export_csv' %}">
+                        <input type="hidden" name="cell_line" value="{{ cell_line }}">
+                        <input type="hidden" name="infection_status" value="{{ infection }}">
+                        <input type="hidden" name="start_date" value="{{ start_date }}">
+                        <input type="hidden" name="end_date" value="{{ end_date }}">
+                        <input type="hidden" name="users" value="{{ users }}">
+                        <input type="hidden" name="plate_num" value="{{ plate_num }}">
+                        
+                        <button class="btn" type="submit">Export as CSV</button>
+                    </form>
+                </div>
             </div>
+
         </div>
 
         <table>
