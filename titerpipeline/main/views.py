@@ -115,8 +115,20 @@ def filter_samples(request):
 
     #passed to html form
     vars = {
+        #holds sample information from the filter that was created on homepage
         "samples": samples,
         "metadata": metadata,  
-        "read_pairs": read_pairs }
+        "read_pairs": read_pairs,
+        
+        #copy the filter criteria from the homepage and post it to the hidden form. 
+        #this is needed for the export_csv route, so that it can reapply the same filter for the csv file
+        'cell_line':cell_line, 
+        'start_date':start_date,
+        'end_date':end_date,
+        "infection":infection_status,
+        "users":users,
+        "plate_num":plate_num,
+
+        }
 
     return render(request, 'filtered_samples.html', vars)
