@@ -239,7 +239,26 @@ body {
     }
 }
 
+.filtered_samples_header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    margin: auto;
+    padding: 35px;
 
+}
+#filtered_samples_header_message{
+    font-size: 50px;
+}
+
+.filter_btns{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
 
 /* */
 /* setting style for samples_list.html */
@@ -280,6 +299,7 @@ table tbody td {
     border-bottom: 1px solid #ddd; 
     color: #333;
     font-size: 1em; 
+    text-align: center;
 }
 
 table tbody tr:nth-child(even) {

@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect,  get_object_or_404
 from main.models import Experiment, Sample, Sample_Metadata, Read_Pair
 
 
+"""home page that contains the form for selecting samples associated 
+with an experiment, as well as the custom filter"""
 
 def home(request):
     #fetching data from Experiments model, returns dict
@@ -9,7 +11,9 @@ def home(request):
         #sorted list of experiments. Stores just the exp name, rather than the dict format
     experiments_value = [exp['name'] for exp in experiments_dict]
 
-    #get meta data so that I can extract the obj later in html form
+    """Code below this is for populating the custom query/filter form. 
+    I need each value saved in its own variable so that they can be passed to the html pg"""
+    #get all meta data so that I can extract the obj I want
     metadata = Sample_Metadata.objects.all()
     
     # Collect unique infection values from metadata
@@ -36,8 +40,9 @@ def home(request):
     #holds plate numbers in data
     plate_num_dict = Read_Pair.objects.values("plate_number")
     plate_num_value = [num['plate_number'] for num in plate_num_dict] 
-    unique_plate_num_value = list(set(plate_num_value))#filters so each num is only represented once
-   
+    unique_plate_num_value = list(set(plate_num_value)) #filters so each num is only represented once
+    
+    #passed to html form
     vars = {
         "experiments":experiments_value,
         'infections':unique_infections, 
@@ -46,6 +51,10 @@ def home(request):
         "plate_num":unique_plate_num_value }
 
     return render(request, "home.html", vars)
+
+
+"""After a user selects an exp in the homepage, they are directed to this page which lists all the 
+samples associated with that experiment"""
 
 def samples_by_experiment(request):
     if request.method == 'POST':
@@ -59,6 +68,8 @@ def samples_by_experiment(request):
     else:
             return redirect('home')
     
+"""If a user wants to create a custom filter, they can do so on the homepage. This route lists out 
+the information of the filtered samples"""
 
 def filter_samples(request):
     # Initialize an empty queryset for the Sample model
@@ -88,7 +99,7 @@ def filter_samples(request):
     if infection_status:
         samples = samples.filter(sample_metadata__metadata__Infection=infection_status)
 
-    # Filtering by user (assuming 'user' is a field in Sample or related model)
+    # Filtering by user/lab member
     if users:
         samples = samples.filter(sample_metadata__metadata__Initials=users)
 
@@ -96,5 +107,16 @@ def filter_samples(request):
     if plate_num:
         samples = samples.filter(read_pair__plate_number=plate_num)
 
-    # Render the filtered samples to the template
-    return render(request, 'filtered_samples.html', {'samples': samples})
+    # Get all related metadata and read pairs for the filtered samples
+    #have to filter the models by sample_id since that is the foreign key in the models
+    sample_ids = samples.values_list('id', flat=True) 
+    metadata = Sample_Metadata.objects.filter(sample_id__in=sample_ids) 
+    read_pairs = Read_Pair.objects.filter(sample_id__in=sample_ids)
+
+    #passed to html form
+    vars = {
+        "samples": samples,
+        "metadata": metadata,  
+        "read_pairs": read_pairs }
+
+    return render(request, 'filtered_samples.html', vars)

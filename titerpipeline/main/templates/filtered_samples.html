@@ -2,25 +2,60 @@
 
     {% block content %}
 
-        <h1>Filtered Samples</h1>
+        <div class="filtered_samples_header">
+            <h1 id="filtered_samples_header_message">Filtered Samples</h1>
+            <div class="filter_btns">
+                <a class="btn" href="{% url 'home' %}">Back to home</a>
+                <a class="btn" href="">export to CSV</a>
+            </div>
+        </div>
+
         <table>
             <thead>
                 <tr>
                     <th>Sample ID</th>
-                    <th>Cell Line</th>
+                    <th>Sample Label</th>
                     <th>Created Date</th>
+                    <th>Cell Line</th>
                     <th>Infection Status</th>
                     <th>Plate Number</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="filtered_samples_body">
                 {% for sample in samples %}
                     <tr>
-                        <<td>{{ sample.sample_id }}</td>
-                        <td>{{ sample.sample_metadata.metadata.cell_line }}</td>
+                        <td>{{ sample.sample_id }}</td>
+                        
+                        <td>{{ sample.sample_label }}</td>
+
                         <td>{{ sample.created_date }}</td>
-                        <td>{{ sample.sample_metadata.metadata.infection }}</td>
-                        <td>{{ sample.read_pair.plate_number }}</td>
+                        
+                        <!-- Access the related metadata -->
+                        <td>
+                            {% for meta in metadata %}
+                                {% if meta.sample_id == sample %}
+                                    {{ meta.metadata.Cell_Line }}
+                                {% endif %}
+                            {% endfor %}
+                        </td>
+                        
+                        <!-- Access the related infection status -->
+                        <td>
+                            {% for meta in metadata %}
+                                {% if meta.sample_id == sample %}
+                                    {{ meta.metadata.Infection }}
+                                {% endif %}
+                            {% endfor %}
+                        </td>
+        
+                        <!-- Access the related plate number -->
+                        <td>
+                            {% for pair in read_pairs %}
+                                {% if pair.sample_id == sample %}
+                                    {{ pair.plate_number }}
+                                {% endif %}
+                            {% endfor %}
+                        </td>
                     </tr>
                 {% empty %}
                     <tr>
@@ -29,4 +64,5 @@
                 {% endfor %}
             </tbody>
         </table>
+        
     {% endblock %}
