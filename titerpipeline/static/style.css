@@ -275,6 +275,12 @@ body {
     padding: 35px;
 }
 
+.in_exp_header{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    gap: 0;
+}
+
 table {
     width: 80%; 
     margin: 30px auto; 
