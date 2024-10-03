@@ -20,6 +20,19 @@
 
 
 <body> <!-- body section, extended to each html page -->
+    <div class="navbar">
+        <!-- Left: Program title -->
+        <div class="program-title">
+            Russell Lab Sample Tracking Program
+        </div>
+
+        <!-- Right: Navigation buttons -->
+        <div class="nav-buttons">
+            <a class='btn' href="{% url 'home' %}">Home</a>
+            <a class='btn' href="{% url 'login' %}">Login</a>
+        </div>
+    </div>
+
     {% block content %} Content {% endblock %}
     
 </body>

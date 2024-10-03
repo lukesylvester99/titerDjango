@@ -10,6 +10,32 @@ body {
     box-sizing: border-box;
 }
 
+/* */
+/* setting style for Nav Bar */
+/* */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4b300f2; 
+    padding: 15px 20px;
+    color: white;
+}
+
+
+.navbar .program-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.navbar .nav-buttons {
+    display: flex;
+    gap: 15px; 
+}
+
+
 
 /* */
 /* setting style for Home Page */
