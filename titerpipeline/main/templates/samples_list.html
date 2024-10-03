@@ -6,7 +6,7 @@
         <h1>Samples for Experiment: {{ experiment.name }}</h1>
         <div class="filter_btns">
             <a class="btn" href="{% url 'home' %}">Back to home</a>
-            <a class="btn" href="">export to CSV</a>
+            <a class="btn" href="{% url 'export_csv_by_exp' experiment.id %}">export to CSV</a>
         </div>
         
         <table>

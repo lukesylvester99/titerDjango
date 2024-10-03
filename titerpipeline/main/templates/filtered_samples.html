@@ -9,7 +9,7 @@
                 
                 <!-- Hidden fields to pass the filter criteria -->
                 <div class="export_csv">
-                    <form method="GET" action="{% url 'export_csv' %}">
+                    <form method="GET" action="{% url 'export_csv_query' %}">
                         <input type="hidden" name="cell_line" value="{{ cell_line }}">
                         <input type="hidden" name="infection_status" value="{{ infection }}">
                         <input type="hidden" name="start_date" value="{{ start_date }}">

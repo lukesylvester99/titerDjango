@@ -70,6 +70,49 @@ def samples_by_experiment(request):
     else:
             return redirect('home')
     
+    
+"""route to handel csv export for the *Samples-by-Experiment* fxn on the homepage. This is
+triggered after a user selects the 'export to CSV' btn on the 'sample_list.html' page"""
+
+def export_csv_by_exp(request, experiment_id):
+    # Fetch the experiment object using the experiment_id from the URL
+    experiment = get_object_or_404(Experiment, id=experiment_id)
+
+    # Get the samples associated with the experiment
+    samples = Sample.objects.filter(experiment=experiment)
+
+    # Get all related metadata and read pairs for the filtered samples
+    sample_ids = samples.values_list('id', flat=True)
+    metadata = Sample_Metadata.objects.filter(sample_id__in=sample_ids)
+    read_pairs = Read_Pair.objects.filter(sample_id__in=sample_ids)
+
+    # Create the CSV response
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = 'attachment; filename="samples_in_exp_{}.csv"'.format(experiment.name)
+
+    writer = csv.writer(response)
+    writer.writerow(['Sample ID', 'Cell Line', 'Infection Status', 'Created Date', 'Plate Number', 'Read 1 Path', 'Read 2 Path'])
+
+    # Write each row of data
+    for sample in samples:
+        # Accessing metadata and related read pair info for the sample
+        metadata_instance = metadata.filter(sample_id=sample.id).first()
+        read_pair_instance = read_pairs.filter(sample_id=sample.id).first()
+
+        # Extracting the JSON fields from the metadata object
+        cell_line = metadata_instance.metadata.get("Cell_Line", "") if metadata_instance else ""
+        infection = metadata_instance.metadata.get("Infection", "") if metadata_instance else ""
+
+        # Extracting read pair information
+        plate_number = read_pair_instance.plate_number if read_pair_instance else ''
+        read1_path = read_pair_instance.read1_path if read_pair_instance else ''
+        read2_path = read_pair_instance.read2_path if read_pair_instance else ''
+
+        writer.writerow([sample.sample_id, cell_line, infection, sample.created_date, plate_number, read1_path, read2_path])
+
+    return response
+    
+    
 """If a user wants to create a custom filter, they can do so on the homepage. This route lists out 
 the information of the filtered samples"""
 
@@ -136,8 +179,9 @@ def filter_samples(request):
     return render(request, 'filtered_samples.html', vars)
 
 
+"""CSV export for the *Custom Query/Filter* part of the application"""
 
-def export_csv(request):
+def export_csv_query(request):
     # Get filter criteria from the GET request
     cell_line = request.GET.get('cell_line', None)
     infection_status = request.GET.get('infection_status', None)
