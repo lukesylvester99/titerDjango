@@ -2,11 +2,12 @@ from django.shortcuts import render, redirect,  get_object_or_404
 from main.models import Experiment, Sample, Sample_Metadata, Read_Pair
 import csv
 from django.http import HttpResponse
+from django.contrib.auth.decorators import login_required
 
 
 """home page that contains the form for selecting samples associated 
 with an experiment, as well as the custom filter"""
-
+@login_required(login_url='login')  # Redirect to the login page if not authenticated
 def home(request):
     #fetching data from Experiments model, returns dict
     experiments_dict = Experiment.objects.values('name') 
@@ -57,7 +58,7 @@ def home(request):
 
 """After a user selects an exp in the homepage, they are directed to this page which lists all the 
 samples associated with that experiment"""
-
+@login_required(login_url='login')  # Redirect to the login page if not authenticated
 def samples_by_experiment(request):
     if request.method == 'POST':
         experiment_ID = request.POST.get('exp_selection') #get form selection from homepage
@@ -73,7 +74,7 @@ def samples_by_experiment(request):
     
 """route to handel csv export for the *Samples-by-Experiment* fxn on the homepage. This is
 triggered after a user selects the 'export to CSV' btn on the 'sample_list.html' page"""
-
+@login_required(login_url='login')  # Redirect to the login page if not authenticated
 def export_csv_by_exp(request, experiment_id):
     # Fetch the experiment object using the experiment_id from the URL
     experiment = get_object_or_404(Experiment, id=experiment_id)
@@ -115,7 +116,7 @@ def export_csv_by_exp(request, experiment_id):
     
 """If a user wants to create a custom filter, they can do so on the homepage. This route lists out 
 the information of the filtered samples"""
-
+@login_required(login_url='login')  # Redirect to the login page if not authenticated
 def filter_samples(request):
     # Initialize an empty queryset for the Sample model
     samples = Sample.objects.all()  
