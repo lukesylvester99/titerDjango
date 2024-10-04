@@ -21,17 +21,36 @@
 
 <body> <!-- body section, extended to each html page -->
     <div class="navbar">
-        <!-- Left: Program title -->
+        <!-- Program title -->
         <div class="program-title">
             Russell Lab Sample Tracking Program
         </div>
 
-        <!-- Right: Navigation buttons -->
+        <!-- Nav buttons -->
         <div class="nav-buttons">
             <a class='btn' href="{% url 'home' %}">Home</a>
-            <a class='btn' href="{% url 'login' %}">Login</a>
+        
+            {% if user.is_authenticated %}
+                <!-- Show Logout button if the user is authenticated -->
+                <form method="POST" action="{% url 'logout' %}">
+                    {% csrf_token %}
+                    <button type="submit" class="btn">Logout</button>
+                </form>
+            {% else %}
+                <!-- Show Login button if the user is not authenticated -->
+                <a href="{% url 'login' %}" class="btn">Login</a>
+            {% endif %}
         </div>
+        
+    </div>  
+
+    {% if messages %}
+    <div class="messages">
+        {% for message in messages %}
+            <p class="{{ message.tags }}" style="color: white;">{{ message }}</p>
+        {% endfor %}
     </div>
+    {% endif %}
 
     {% block content %} Content {% endblock %}
     

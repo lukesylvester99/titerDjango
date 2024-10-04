@@ -3,4 +3,19 @@
 
     <h1>Login Page</h1>
 
+
+
+    <div class="login_form">
+        <form method="POST">
+            {% csrf_token %}
+
+            <label for="username">Username</label>
+            <input class='login_form_username' type="text" name="username">
+
+            <label for="password">Password</label>
+            <input class='login_form_password' type="password" name="password">
+
+            <input type="submit" class="btn" value="Login">
+        </form>
+    </div>
     {% endblock %}
