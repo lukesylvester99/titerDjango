@@ -1,10 +1,13 @@
 from django.shortcuts import render, redirect,  get_object_or_404
 from main.models import Experiment, Sample, Sample_Metadata, Read_Pair
+import csv
+from django.http import HttpResponse
+from django.contrib.auth.decorators import login_required
 
 
 """home page that contains the form for selecting samples associated 
 with an experiment, as well as the custom filter"""
-
+@login_required(login_url='login')  # Redirect to the login page if not authenticated
 def home(request):
     #fetching data from Experiments model, returns dict
     experiments_dict = Experiment.objects.values('name') 
@@ -55,7 +58,7 @@ def home(request):
 
 """After a user selects an exp in the homepage, they are directed to this page which lists all the 
 samples associated with that experiment"""
-
+@login_required(login_url='login')  # Redirect to the login page if not authenticated
 def samples_by_experiment(request):
     if request.method == 'POST':
         experiment_ID = request.POST.get('exp_selection') #get form selection from homepage
@@ -68,9 +71,52 @@ def samples_by_experiment(request):
     else:
             return redirect('home')
     
+    
+"""route to handel csv export for the *Samples-by-Experiment* fxn on the homepage. This is
+triggered after a user selects the 'export to CSV' btn on the 'sample_list.html' page"""
+@login_required(login_url='login')  # Redirect to the login page if not authenticated
+def export_csv_by_exp(request, experiment_id):
+    # Fetch the experiment object using the experiment_id from the URL
+    experiment = get_object_or_404(Experiment, id=experiment_id)
+
+    # Get the samples associated with the experiment
+    samples = Sample.objects.filter(experiment=experiment)
+
+    # Get all related metadata and read pairs for the filtered samples
+    sample_ids = samples.values_list('id', flat=True)
+    metadata = Sample_Metadata.objects.filter(sample_id__in=sample_ids)
+    read_pairs = Read_Pair.objects.filter(sample_id__in=sample_ids)
+
+    # Create the CSV response
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = 'attachment; filename="samples_in_exp_{}.csv"'.format(experiment.name)
+
+    writer = csv.writer(response)
+    writer.writerow(['Sample ID', 'Cell Line', 'Infection Status', 'Created Date', 'Plate Number', 'Read 1 Path', 'Read 2 Path'])
+
+    # Write each row of data
+    for sample in samples:
+        # Accessing metadata and related read pair info for the sample
+        metadata_instance = metadata.filter(sample_id=sample.id).first()
+        read_pair_instance = read_pairs.filter(sample_id=sample.id).first()
+
+        # Extracting the JSON fields from the metadata object
+        cell_line = metadata_instance.metadata.get("Cell_Line", "") if metadata_instance else ""
+        infection = metadata_instance.metadata.get("Infection", "") if metadata_instance else ""
+
+        # Extracting read pair information
+        plate_number = read_pair_instance.plate_number if read_pair_instance else ''
+        read1_path = read_pair_instance.read1_path if read_pair_instance else ''
+        read2_path = read_pair_instance.read2_path if read_pair_instance else ''
+
+        writer.writerow([sample.sample_id, cell_line, infection, sample.created_date, plate_number, read1_path, read2_path])
+
+    return response
+    
+    
 """If a user wants to create a custom filter, they can do so on the homepage. This route lists out 
 the information of the filtered samples"""
-
+@login_required(login_url='login')  # Redirect to the login page if not authenticated
 def filter_samples(request):
     # Initialize an empty queryset for the Sample model
     samples = Sample.objects.all()  
@@ -132,3 +178,73 @@ def filter_samples(request):
         }
 
     return render(request, 'filtered_samples.html', vars)
+
+
+"""CSV export for the *Custom Query/Filter* part of the application"""
+
+def export_csv_query(request):
+    # Get filter criteria from the GET request
+    cell_line = request.GET.get('cell_line', None)
+    infection_status = request.GET.get('infection_status', None)
+    start_date = request.GET.get('start_date', None)
+    end_date = request.GET.get('end_date', None)
+    users = request.GET.get('users', None)
+    plate_num = request.GET.get('plate_num', None)
+
+    """Repeating filter that was applied on homepage"""
+    # Initialize the samples QuerySet
+    samples = Sample.objects.all()
+
+    # Filtering by cell line from Sample_Metadata JSON field
+    if cell_line:
+        samples = samples.filter(sample_metadata__metadata__Cell_Line=cell_line)
+
+    # Filter by date range (assuming created_date is in Sample model)
+    if start_date:
+        samples = samples.filter(created_date__gte=start_date)
+
+    if end_date:
+        samples = samples.filter(created_date__lte=end_date)
+
+    # Filtering by infection status from Sample_Metadata JSON field
+    if infection_status:
+        samples = samples.filter(sample_metadata__metadata__Infection=infection_status)
+
+    # Filtering by user/lab member (Initials field in metadata)
+    if users:
+        samples = samples.filter(sample_metadata__metadata__Initials=users)
+
+    # Filtering by plate number from Read_Pair model
+    if plate_num:
+        samples = samples.filter(read_pair__plate_number=plate_num)
+
+    # Get all related metadata and read pairs for the filtered samples
+    sample_ids = samples.values_list('id', flat=True)
+    metadata = Sample_Metadata.objects.filter(sample_id__in=sample_ids)
+    read_pairs = Read_Pair.objects.filter(sample_id__in=sample_ids)
+
+    # Create the CSV response
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = 'attachment; filename="filtered_samples.csv"'
+
+    writer = csv.writer(response)
+    writer.writerow(['Sample ID', 'Cell Line', 'Infection Status', 'Created Date', 'Plate Number', 'Read 1 Path', 'Read 2 Path'])
+
+    # Write each row of data
+    for sample in samples:
+        # Accessing metadata and related read pair info for the sample
+        metadata_instance = metadata.filter(sample_id=sample.id).first()
+        read_pair_instance = read_pairs.filter(sample_id=sample.id).first()
+
+        # Extracting the JSON fields from the metadata object
+        cell_line = metadata_instance.metadata.get("Cell_Line", "") if metadata_instance else ""
+        infection = metadata_instance.metadata.get("Infection", "") if metadata_instance else ""
+
+        # Extracting read pair information
+        plate_number = read_pair_instance.plate_number if read_pair_instance else ''
+        read1_path = read_pair_instance.read1_path if read_pair_instance else ''
+        read2_path = read_pair_instance.read2_path if read_pair_instance else ''
+
+        writer.writerow([sample.sample_id, cell_line, infection, sample.created_date, plate_number, read1_path, read2_path])
+
+    return response
