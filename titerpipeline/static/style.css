@@ -59,6 +59,86 @@ body {
     border: 1px solid #f5c6cb;
 }
 
+/* */
+/* setting style for Login Page */
+/* */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;  
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding-top: 6%;  
+}
+
+.login-container h1 {
+    font-size: 2.5rem;
+    color: #6200EE;
+    margin-bottom: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2.5px;
+    
+}
+
+.login-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: Add some margin between the button and the form */
+.form-group:last-child {
+    margin-top: 1.5rem;
+}
+
+
 
 /* */
 /* setting style for Home Page */
