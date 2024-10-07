@@ -47,8 +47,7 @@ for name in names:
     # Filter out rows where Column E ('Date Collected') is empty
     filtered_records = [row for row in all_records if row.get('Date Collected')] 
 
-    json_string = json.dumps(filtered_records)
-    json_data.append(json_string)
+    json_data.extend(filtered_records)
 
 
 # Directory where json file will be saved.
