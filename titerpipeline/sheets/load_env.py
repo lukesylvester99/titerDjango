@@ -6,8 +6,6 @@ import json
 
 load_dotenv()
 
-#print(os.getenv("client_email"))
-
 # Construct the service account information from environment variables
 service_account_info = {
     "type": os.getenv("TYPE"),
@@ -26,29 +24,47 @@ scopes = ["https://www.googleapis.com/auth/spreadsheets"]
 creds = Credentials.from_service_account_info(service_account_info, scopes=scopes)
 client = gspread.authorize(creds)
 
+#accessing pellet and tn5 sheets with client credentials
+sheet_id_pellets = '12Cy2HZpVzzzu_erg2XMXCAd19XY88hfhDKUOA5MIDGs' #replace with real id once testing is done!!
+sheet_id_tn5 = '13VX6wxF4RHhlJwSEei8kdpTNyGBrq3sgOliiDDZWDsc'
+pellet_sheet = client.open_by_key(sheet_id_pellets)
+tn5_sheet = client.open_by_key(sheet_id_tn5)
 
-sheet_id = '12Cy2HZpVzzzu_erg2XMXCAd19XY88hfhDKUOA5MIDGs' #replace with real id once testing is done!!
-sheet = client.open_by_key(sheet_id)
-
-values_list = sheet.worksheets()
+#saving these 'accessed' sheets in an obj that I can call alter
+values_list_pellets = pellet_sheet.worksheets() 
+values_list_tn5= tn5_sheet.worksheets()
 
 names = []
-for worksheet in values_list:
+for worksheet in values_list_pellets: #iterating through pellet samples sheet and saving tab names
     name = worksheet.title
     if name not in ["Instructions", "Experiment Template", "Experiments Summary", "Needs Extraction"]:
         names.append(name)
 
-json_data = []
-for name in names:
-    worksheet = sheet.worksheet(name)
+json_data = [] #this will get saved as a json file later
+for name in names: #saving all sheet information for each exp tab in sheet
+    worksheet = pellet_sheet.worksheet(name)
     all_records = worksheet.get_all_records()
 
 
     # Filter out rows where Column E ('Date Collected') is empty
     filtered_records = [row for row in all_records if row.get('Date Collected')] 
 
-    json_data.extend(filtered_records)
+    json_data.extend(filtered_records) 
 
+#I need to connect tn5 sheet so that I can get plate data and gDNA concentrations
+tn5_worksheet = tn5_sheet.worksheet('gDNA concentrations')
+all_records_tn5 = tn5_worksheet.get_all_records()
+for record in all_records_tn5:
+    for i in json_data:
+        sample_id = record.get('Sample') #get sample name from sheet
+
+        # Match by "Sample ID" or "Sample Label"
+        if sample_id == i.get("Sample ID") or sample_id == i.get("Sample Label"):
+            i["gDNA Conc"] = record.get('gDNA Concentration (ng/ul)', '')  #save to json obj
+
+            plate_number = record.get('Plate #')
+            if plate_number != 'NA':# Skip if Plate Number is 'NA'                
+                i["Plate Number"] = plate_number
 
 # Directory where json file will be saved.
 output_dir = r'C:\Users\lukes\OneDrive\Documents\GitHub\titerDjango\titerpipeline\main\management\commands'
