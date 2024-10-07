@@ -59,7 +59,7 @@ for record in all_records_tn5:
         sample_id = record.get('Sample') #get sample name from sheet
 
         # Match by "Sample ID" or "Sample Label"
-        if sample_id == i.get("Sample ID") or sample_id == i.get("Sample Label"):
+        if sample_id == i.get("Sample ID") or sample_id == i.get("Sample Label") or sample_id == i.get("Original Sample Name"):
             i["gDNA Conc"] = record.get('gDNA Concentration (ng/ul)', '')  #save to json obj
 
             plate_number = record.get('Plate #')

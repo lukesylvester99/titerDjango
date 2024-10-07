@@ -3129,7 +3129,9 @@
         "Timepoint": 11,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_130 JW18 wMel:wWil 0904A 1:1 T11",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T11-0904A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T11-0904A",
+        "gDNA Conc": 83,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3148,7 +3150,9 @@
         "Timepoint": 11,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_131 JW18 wMel:wWil 0904B 1:1 T11",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T11-0904B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T11-0904B",
+        "gDNA Conc": 60,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3167,7 +3171,9 @@
         "Timepoint": 11,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_132 JW18 wMel:wWil 0904C 1:1 T11",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T11-0904C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T11-0904C",
+        "gDNA Conc": 47,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3186,7 +3192,9 @@
         "Timepoint": 11,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_133 JW18 wMel:wWil 0904A 1:100 T11",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T11-0904A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T11-0904A",
+        "gDNA Conc": 38,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3205,7 +3213,9 @@
         "Timepoint": 11,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_134 JW18 wMel:wWil 0904B 1:100 T11",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T11-0904B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T11-0904B",
+        "gDNA Conc": 35,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3224,7 +3234,9 @@
         "Timepoint": 11,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_135 JW18 wMel:wWil 0904C 1:100 T11",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T11-0904C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T11-0904C",
+        "gDNA Conc": 77,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3243,7 +3255,9 @@
         "Timepoint": 11,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_136 JW18 wMel:wWil 0904A 1:1K T11",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T11-0904A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T11-0904A",
+        "gDNA Conc": 9,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3262,7 +3276,9 @@
         "Timepoint": 11,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_137 JW18 wMel:wWil 0904B 1:1K T11",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T11-0904B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T11-0904B",
+        "gDNA Conc": 9,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3281,7 +3297,9 @@
         "Timepoint": 11,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_138 JW18 wMel:wWil 0904C 1:1K T11",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T11-0904C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T11-0904C",
+        "gDNA Conc": 8,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3300,7 +3318,9 @@
         "Timepoint": 12,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_139 JW18 wMel:wWil 1604A 1:1 T12",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T12-1604A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T12-1604A",
+        "gDNA Conc": 252,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3319,7 +3339,9 @@
         "Timepoint": 12,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_140 JW18 wMel:wWil 1604B 1:1 T12",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T12-1604B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T12-1604B",
+        "gDNA Conc": 350,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3338,7 +3360,9 @@
         "Timepoint": 12,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_141 JW18 wMel:wWil 1604C 1:1 T12",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T12-1604C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T12-1604C",
+        "gDNA Conc": 53,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3357,7 +3381,9 @@
         "Timepoint": 12,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_142 JW18 wMel:wWil 1604A 1:100 T12",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T12-1604A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T12-1604A",
+        "gDNA Conc": 83,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3376,7 +3402,9 @@
         "Timepoint": 12,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_143 JW18 wMel:wWil 1604B 1:100 T12",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T12-1604B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T12-1604B",
+        "gDNA Conc": 58,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3395,7 +3423,9 @@
         "Timepoint": 12,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_144 JW18 wMel:wWil 1604C 1:100 T12",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T12-1604C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T12-1604C",
+        "gDNA Conc": 51,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3414,7 +3444,9 @@
         "Timepoint": 12,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_145 JW18 wMel:wWil 1604A 1:1K T12",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T12-1604A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T12-1604A",
+        "gDNA Conc": 23,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3433,7 +3465,9 @@
         "Timepoint": 12,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_146 JW18 wMel:wWil 1604B 1:1K T12",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T12-1604B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T12-1604B",
+        "gDNA Conc": 32,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3452,7 +3486,9 @@
         "Timepoint": 12,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_147 JW18 wMel:wWil 1604C 1:1K T12",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T12-1604C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T12-1604C",
+        "gDNA Conc": 15,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3471,7 +3507,9 @@
         "Timepoint": 13,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_148 JW18 wMel:wWil 2304A 1:1 T13",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T13-2304A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T13-2304A",
+        "gDNA Conc": 98,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3490,7 +3528,9 @@
         "Timepoint": 13,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_149 JW18 wMel:wWil 2304B 1:1 T13",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T13-2304B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T13-2304B",
+        "gDNA Conc": 176,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3509,7 +3549,9 @@
         "Timepoint": 13,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_150 JW18 wMel:wWil 2304C 1:1 T13",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T13-2304C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T13-2304C",
+        "gDNA Conc": 24,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3528,7 +3570,9 @@
         "Timepoint": 13,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_151 JW18 wMel:wWil 2304A 1:100 T13",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T13-2304A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T13-2304A",
+        "gDNA Conc": 72,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3547,7 +3591,9 @@
         "Timepoint": 13,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_152 JW18 wMel:wWil 2304B 1:100 T13",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T13-2304B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T13-2304B",
+        "gDNA Conc": 161,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3566,7 +3612,9 @@
         "Timepoint": 13,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_153 JW18 wMel:wWil 2304C 1:100 T13",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T13-2304C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T13-2304C",
+        "gDNA Conc": 47,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3585,7 +3633,9 @@
         "Timepoint": 13,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_154 JW18 wMel:wWil 2304A 1:1K T13",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T13-2304A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T13-2304A",
+        "gDNA Conc": 33,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3604,7 +3654,9 @@
         "Timepoint": 13,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_155 JW18 wMel:wWil 2304B 1:1K T13",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T13-2304B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T13-2304B",
+        "gDNA Conc": 40,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3623,7 +3675,9 @@
         "Timepoint": 13,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_156 JW18 wMel:wWil 2304C 1:1K T13",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T13-2304C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T13-2304C",
+        "gDNA Conc": 22,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -3642,7 +3696,9 @@
         "Timepoint": 14,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_157 JW18 wMel:wWil 3004A 1:1 T14",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T14-3004A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T14-3004A",
+        "gDNA Conc": 223,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3661,7 +3717,9 @@
         "Timepoint": 14,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_158 JW18 wMel:wWil 3004B 1:1 T14",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T14-3004B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T14-3004B",
+        "gDNA Conc": 442,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3680,7 +3738,9 @@
         "Timepoint": 14,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_159 JW18 wMel:wWil 3004C 1:1 T14",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T14-3004C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T14-3004C",
+        "gDNA Conc": 24,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3699,7 +3759,9 @@
         "Timepoint": 14,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_160 JW18 wMel:wWil 3004A 1:100 T14",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T14-3004A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T14-3004A",
+        "gDNA Conc": 175,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3718,7 +3780,9 @@
         "Timepoint": 14,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_161 JW18 wMel:wWil 3004B 1:100 T14",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T14-3004B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T14-3004B",
+        "gDNA Conc": 98,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3737,7 +3801,9 @@
         "Timepoint": 14,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_162 JW18 wMel:wWil 3004C 1:100 T14",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T14-3004C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T14-3004C",
+        "gDNA Conc": 74,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3756,7 +3822,9 @@
         "Timepoint": 14,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_163 JW18 wMel:wWil 3004A 1:1K T14",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T14-3004A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T14-3004A",
+        "gDNA Conc": 124,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3775,7 +3843,9 @@
         "Timepoint": 14,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_164 JW18 wMel:wWil 3004B 1:1K T14",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T14-3004B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T14-3004B",
+        "gDNA Conc": 122,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3794,7 +3864,9 @@
         "Timepoint": 14,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_165 JW18 wMel:wWil 3004C 1:1K T14",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T14-3004C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T14-3004C",
+        "gDNA Conc": 132,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3813,7 +3885,9 @@
         "Timepoint": 15,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_166 JW18 wMel:wWil 0705A 1:1 T15",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T15-0705A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T15-0705A",
+        "gDNA Conc": 16,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3832,7 +3906,9 @@
         "Timepoint": 15,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_167 JW18 wMel:wWil 0705B 1:1 T15",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T15-0705B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T15-0705B",
+        "gDNA Conc": 167,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3851,7 +3927,9 @@
         "Timepoint": 15,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_168 JW18 wMel:wWil 0705C 1:1 T15",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T15-0705C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T15-0705C",
+        "gDNA Conc": 89,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3870,7 +3948,9 @@
         "Timepoint": 15,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_169 JW18 wMel:wWil 0705A 1:100 T15",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T15-0705A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T15-0705A",
+        "gDNA Conc": 95,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3889,7 +3969,9 @@
         "Timepoint": 15,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_170 JW18 wMel:wWil 0705B 1:100 T15",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T15-0705B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T15-0705B",
+        "gDNA Conc": 77,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3908,7 +3990,9 @@
         "Timepoint": 15,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_171 JW18 wMel:wWil 0705C 1:100 T15",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T15-0705C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T15-0705C",
+        "gDNA Conc": 67,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3927,7 +4011,9 @@
         "Timepoint": 15,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_172 JW18 wMel:wWil 0705A 1:1K T15",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T15-0705A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T15-0705A",
+        "gDNA Conc": 150,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3946,7 +4032,9 @@
         "Timepoint": 15,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_173 JW18 wMel:wWil 0705B 1:1K T15",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T15-0705B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T15-0705B",
+        "gDNA Conc": 98,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3965,7 +4053,9 @@
         "Timepoint": 15,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_174 JW18 wMel:wWil 0705C 1:1K T15",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T15-0705C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T15-0705C",
+        "gDNA Conc": 169,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -3984,7 +4074,9 @@
         "Timepoint": 16,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_175 JW18 wMel:wWil 1405A 1:1 T16",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T16-1405A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T16-1405A",
+        "gDNA Conc": 72,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4003,7 +4095,9 @@
         "Timepoint": 16,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_176 JW18 wMel:wWil 1405B 1:1 T16",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T16-1405B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T16-1405B",
+        "gDNA Conc": 124,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4022,7 +4116,9 @@
         "Timepoint": 16,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_177 JW18 wMel:wWil 1405C 1:1 T16",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T16-1405C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T16-1405C",
+        "gDNA Conc": 66,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4041,7 +4137,9 @@
         "Timepoint": 16,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_178 JW18 wMel:wWil 1405A 1:100 T16",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T16-1405A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T16-1405A",
+        "gDNA Conc": 76,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4060,7 +4158,9 @@
         "Timepoint": 16,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_179 JW18 wMel:wWil 1405B 1:100 T16",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T16-1405B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T16-1405B",
+        "gDNA Conc": 41,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4079,7 +4179,9 @@
         "Timepoint": 16,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_180 JW18 wMel:wWil 1405C 1:100 T16",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T16-1405C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T16-1405C",
+        "gDNA Conc": 96,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4098,7 +4200,9 @@
         "Timepoint": 16,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_181 JW18 wMel:wWil 1405A 1:1K T16",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T16-1405A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T16-1405A",
+        "gDNA Conc": 110,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4117,7 +4221,9 @@
         "Timepoint": 16,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_182 JW18 wMel:wWil 1405B 1:1K T16",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T16-1405B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T16-1405B",
+        "gDNA Conc": 84,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4136,7 +4242,9 @@
         "Timepoint": 16,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_183 JW18 wMel:wWil 1405C 1:1K T16",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T16-1405C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T16-1405C",
+        "gDNA Conc": 74,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4155,7 +4263,9 @@
         "Timepoint": 17,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_184 JW18 wMel:wWil 2105A 1:1 T17",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T17-2105A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T17-2105A",
+        "gDNA Conc": 65,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4174,7 +4284,9 @@
         "Timepoint": 17,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_185 JW18 wMel:wWil 2105B 1:1 T17",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T17-2105B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T17-2105B",
+        "gDNA Conc": 80,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4193,7 +4305,9 @@
         "Timepoint": 17,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_186 JW18 wMel:wWil 2105C 1:1 T17",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T17-2105C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T17-2105C",
+        "gDNA Conc": 90,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4212,7 +4326,9 @@
         "Timepoint": 17,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_187 JW18 wMel:wWil 2105A 1:100 T17",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T17-2105A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T17-2105A",
+        "gDNA Conc": 36,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4231,7 +4347,9 @@
         "Timepoint": 17,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_188 JW18 wMel:wWil 2105B 1:100 T17",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T17-2105B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T17-2105B",
+        "gDNA Conc": 54,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4250,7 +4368,9 @@
         "Timepoint": 17,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_189 JW18 wMel:wWil 2105C 1:100 T17",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T17-2105C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T17-2105C",
+        "gDNA Conc": 47,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4269,7 +4389,9 @@
         "Timepoint": 17,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_190 JW18 wMel:wWil 2105A 1:1K T17",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T17-2105A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T17-2105A",
+        "gDNA Conc": 52,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4288,7 +4410,9 @@
         "Timepoint": 17,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_191 JW18 wMel:wWil 2105B 1:1K T17",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T17-2105B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T17-2105B",
+        "gDNA Conc": 42,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4307,7 +4431,9 @@
         "Timepoint": 17,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_192 JW18 wMel:wWil 2105C 1:1K T17",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T17-2105C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T17-2105C",
+        "gDNA Conc": 31,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4326,7 +4452,9 @@
         "Timepoint": 18,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_193 JW18 wMel:wWil 2805A 1:1 T18",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T18-2805A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T18-2805A",
+        "gDNA Conc": 142,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4345,7 +4473,9 @@
         "Timepoint": 18,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_194 JW18 wMel:wWil 2805B 1:1 T18",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T18-2805B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T18-2805B",
+        "gDNA Conc": 112,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4364,7 +4494,9 @@
         "Timepoint": 18,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_195 JW18 wMel:wWil 2805C 1:1 T18",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T18-2805C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T18-2805C",
+        "gDNA Conc": 82,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4383,7 +4515,9 @@
         "Timepoint": 18,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_196 JW18 wMel:wWil 2805A 1:100 T18",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T18-2805A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T18-2805A",
+        "gDNA Conc": 65,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4402,7 +4536,9 @@
         "Timepoint": 18,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_197 JW18 wMel:wWil 2805B 1:100 T18",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T18-2805B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T18-2805B",
+        "gDNA Conc": 77,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4421,7 +4557,9 @@
         "Timepoint": 18,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_198 JW18 wMel:wWil 2805C 1:100 T18",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T18-2805C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T18-2805C",
+        "gDNA Conc": 73,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4440,7 +4578,9 @@
         "Timepoint": 18,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_199 JW18 wMel:wWil 2805A 1:1K T18",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T18-2805A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T18-2805A",
+        "gDNA Conc": 94,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4459,7 +4599,9 @@
         "Timepoint": 18,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_200 JW18 wMel:wWil 2805B 1:1K T18",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T18-2805B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T18-2805B",
+        "gDNA Conc": 98,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4478,7 +4620,9 @@
         "Timepoint": 18,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_201 JW18 wMel:wWil 2805C 1:1K T18",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T18-2805C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T18-2805C",
+        "gDNA Conc": 59,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4497,7 +4641,9 @@
         "Timepoint": 19,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_202 JW18 wMel:wWil 0406A 1:1 T19",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T19-0406A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T19-0406A",
+        "gDNA Conc": 115,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4516,7 +4662,9 @@
         "Timepoint": 19,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_203 JW18 wMel:wWil 0406B 1:1 T19",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T19-0406B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T19-0406B",
+        "gDNA Conc": 136,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4535,7 +4683,9 @@
         "Timepoint": 19,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_204 JW18 wMel:wWil 0406C 1:1 T19",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T19-0406C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T19-0406C",
+        "gDNA Conc": 93,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4554,7 +4704,9 @@
         "Timepoint": 19,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_205 JW18 wMel:wWil 0406A 1:100 T19",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T19-0406A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T19-0406A",
+        "gDNA Conc": 79,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4573,7 +4725,9 @@
         "Timepoint": 19,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_206 JW18 wMel:wWil 0406B 1:100 T19",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T19-0406B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T19-0406B",
+        "gDNA Conc": 103,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4592,7 +4746,9 @@
         "Timepoint": 19,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_207 JW18 wMel:wWil 0406C 1:100 T19",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T19-0406C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T19-0406C",
+        "gDNA Conc": 89,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4611,7 +4767,9 @@
         "Timepoint": 19,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_208 JW18 wMel:wWil 0406A 1:1K T19",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T19-0406A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T19-0406A",
+        "gDNA Conc": 94,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4630,7 +4788,9 @@
         "Timepoint": 19,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_209 JW18 wMel:wWil 0406B 1:1K T19",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T19-0406B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T19-0406B",
+        "gDNA Conc": 165,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4649,7 +4809,9 @@
         "Timepoint": 19,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_210 JW18 wMel:wWil 0406C 1:1K T19",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T19-0406C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T19-0406C",
+        "gDNA Conc": 80,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4668,7 +4830,9 @@
         "Timepoint": 21,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_211 JW18 wMel:wWil 1806A 1:1 T21",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T21-1806A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T21-1806A",
+        "gDNA Conc": 131,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4687,7 +4851,9 @@
         "Timepoint": 21,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_212 JW18 wMel:wWil 1806B 1:1 T21",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T21-1806B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T21-1806B",
+        "gDNA Conc": 108,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4706,7 +4872,9 @@
         "Timepoint": 21,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_213 JW18 wMel:wWil 1806C 1:1 T21",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T21-1806C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T21-1806C",
+        "gDNA Conc": 126,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4725,7 +4893,9 @@
         "Timepoint": 21,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_214 JW18 wMel:wWil 1806A 1:100 T21",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T21-1806A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T21-1806A",
+        "gDNA Conc": 143,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -4744,7 +4914,9 @@
         "Timepoint": 21,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_215 JW18 wMel:wWil 1806B 1:100 T21",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T21-1806B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T21-1806B",
+        "gDNA Conc": 169,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4763,7 +4935,9 @@
         "Timepoint": 21,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_216 JW18 wMel:wWil 1806C 1:100 T21",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T21-1806C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T21-1806C",
+        "gDNA Conc": 85,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4782,7 +4956,9 @@
         "Timepoint": 21,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_217 JW18 wMel:wWil 1806A 1:1K T21",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T21-1806A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T21-1806A",
+        "gDNA Conc": 131,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4801,7 +4977,9 @@
         "Timepoint": 21,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_218 JW18 wMel:wWil 1806B 1:1K T21",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T21-1806B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T21-1806B",
+        "gDNA Conc": 126,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4820,7 +4998,9 @@
         "Timepoint": 21,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_219 JW18 wMel:wWil 1806C 1:1K T21",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T21-1806C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T21-1806C",
+        "gDNA Conc": 133,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4839,7 +5019,9 @@
         "Timepoint": 22,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_220 JW18 wMel:wWil 2506A 1:1 T22",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T22-2506A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T22-2506A",
+        "gDNA Conc": 148,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4858,7 +5040,9 @@
         "Timepoint": 22,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_221 JW18 wMel:wWil 2506B 1:1 T22",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T22-2506B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T22-2506B",
+        "gDNA Conc": 77,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4877,7 +5061,9 @@
         "Timepoint": 22,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_222 JW18 wMel:wWil 2506C 1:1 T22",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T22-2506C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T22-2506C",
+        "gDNA Conc": 135,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4896,7 +5082,9 @@
         "Timepoint": 22,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_223 JW18 wMel:wWil 2506A 1:100 T22",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T22-2506A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T22-2506A",
+        "gDNA Conc": 72,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4915,7 +5103,9 @@
         "Timepoint": 22,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_224 JW18 wMel:wWil 2506B 1:100 T22",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T22-2506B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T22-2506B",
+        "gDNA Conc": 99,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4934,7 +5124,9 @@
         "Timepoint": 22,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_225 JW18 wMel:wWil 2506C 1:100 T22",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T22-2506C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T22-2506C",
+        "gDNA Conc": 127,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4953,7 +5145,9 @@
         "Timepoint": 22,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_226 JW18 wMel:wWil 2506A 1:1K T22",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T22-2506A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T22-2506A",
+        "gDNA Conc": 99,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4972,7 +5166,9 @@
         "Timepoint": 22,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_227 JW18 wMel:wWil 2506B 1:1K T22",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T22-2506B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T22-2506B",
+        "gDNA Conc": 129,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -4991,7 +5187,9 @@
         "Timepoint": 22,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_228 JW18 wMel:wWil 2506C 1:1K T22",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T22-2506C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T22-2506C",
+        "gDNA Conc": 221,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5010,7 +5208,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_229 JW18 wMel:wWil 0207A 1:1 T23",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T23-0207A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T23-0207A",
+        "gDNA Conc": 30,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5029,7 +5229,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_230 JW18 wMel:wWil 0207B 1:1 T23",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T23-0207B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T23-0207B",
+        "gDNA Conc": 27,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5048,7 +5250,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_231 JW18 wMel:wWil 0207C 1:1 T23",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T23-0207C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T23-0207C",
+        "gDNA Conc": 27,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5067,7 +5271,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_232 JW18 wMel:wWil 0207A 1:100 T23",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T23-0207A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T23-0207A",
+        "gDNA Conc": 63,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5086,7 +5292,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_233 JW18 wMel:wWil 0207B 1:100 T23",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T23-0207B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T23-0207B",
+        "gDNA Conc": 89,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5105,7 +5313,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_234 JW18 wMel:wWil 0207C 1:100 T23",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T23-0207C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T23-0207C",
+        "gDNA Conc": 52,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5124,7 +5334,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_235 JW18 wMel:wWil 0207A 1:1K T23",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T23-0207A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T23-0207A",
+        "gDNA Conc": 56,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5143,7 +5355,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_236 JW18 wMel:wWil 0207B 1:1K T23",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T23-0207B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T23-0207B",
+        "gDNA Conc": 76,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5162,7 +5376,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_237 JW18 wMel:wWil 0207C 1:1K T23",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T23-0207C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T23-0207C",
+        "gDNA Conc": 85,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5181,7 +5397,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_238 S2 wMel:wWil 0207A 1:1 T23",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T23-0207A"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T23-0207A",
+        "gDNA Conc": 147,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5200,7 +5418,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_239 S2 wMel:wWil 0207B 1:1 T23",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T23-0207B"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T23-0207B",
+        "gDNA Conc": 146,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5219,7 +5439,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_240 S2 wMel:wWil 0207C 1:1 T23",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T23-0207C"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T23-0207C",
+        "gDNA Conc": 165,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5238,7 +5460,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_241 S2 wMel:wWil 0207A 1:100 T23",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T23-0207A"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T23-0207A",
+        "gDNA Conc": 302,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5257,7 +5481,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_242 S2 wMel:wWil 0207B 1:100 T23",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T23-0207B"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T23-0207B",
+        "gDNA Conc": 314,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5276,7 +5502,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_243 S2 wMel:wWil 0207C 1:100 T23",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T23-0207C"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T23-0207C",
+        "gDNA Conc": 391,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5295,7 +5523,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_244 S2 wMel:wWil 0207A 1:1K T23",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T23-0207A"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T23-0207A",
+        "gDNA Conc": 206,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5314,7 +5544,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_245 S2 wMel:wWil 0207B 1:1K T23",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T23-0207B"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T23-0207B",
+        "gDNA Conc": 185,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5333,7 +5565,9 @@
         "Timepoint": 23,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_246 S2 wMel:wWil 0207C 1:1K T23",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T23-0207C"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T23-0207C",
+        "gDNA Conc": 375,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5352,7 +5586,9 @@
         "Timepoint": 20,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_247 Dsim6B wMel:wWil 0207A 1:1 T20",
-        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T20-0207A"
+        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T20-0207A",
+        "gDNA Conc": 300,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5371,7 +5607,9 @@
         "Timepoint": 20,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_248 Dsim6B wMel:wWil 0207B 1:1 T20",
-        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T20-0207B"
+        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T20-0207B",
+        "gDNA Conc": 136,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -5390,7 +5628,9 @@
         "Timepoint": 20,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "AL_MW_249 Dsim6B wMel:wWil 0207C 1:1 T20",
-        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T20-0207C"
+        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T20-0207C",
+        "gDNA Conc": 155,
+        "Plate Number": 24
     },
     {
         "Experiment ID": "MW",
@@ -7188,7 +7428,9 @@
         "Timepoint": 27,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "JJ_MW_337 S2 wMel:wWil 3007A 1:1 T27",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T27-3007A"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T27-3007A",
+        "gDNA Conc": 140,
+        "Plate Number": 25
     },
     {
         "Experiment ID": "MW",
@@ -7207,7 +7449,9 @@
         "Timepoint": 27,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "JJ_MW_338 S2 wMel:wWil 3007B 1:1 T27",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T27-3007B"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T27-3007B",
+        "gDNA Conc": 64,
+        "Plate Number": 25
     },
     {
         "Experiment ID": "MW",
@@ -7226,7 +7470,9 @@
         "Timepoint": 27,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "JJ_MW_339 S2 wMel:wWil 3007C 1:1 T27",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T27-3007C"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T27-3007C",
+        "gDNA Conc": 71,
+        "Plate Number": 25
     },
     {
         "Experiment ID": "MW",
@@ -7245,7 +7491,9 @@
         "Timepoint": 27,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "JJ_MW_340 S2 wMel:wWil 3007A 1:100 T27",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T27-3007A"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T27-3007A",
+        "gDNA Conc": 144,
+        "Plate Number": 25
     },
     {
         "Experiment ID": "MW",
@@ -7264,7 +7512,9 @@
         "Timepoint": 27,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "JJ_MW_341 S2 wMel:wWil 3007B 1:100 T27",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T27-3007B"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T27-3007B",
+        "gDNA Conc": 156,
+        "Plate Number": 25
     },
     {
         "Experiment ID": "MW",
@@ -7283,7 +7533,9 @@
         "Timepoint": 27,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "JJ_MW_342 S2 wMel:wWil 3007C 1:100 T27",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T27-3007C"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T27-3007C",
+        "gDNA Conc": 183,
+        "Plate Number": 25
     },
     {
         "Experiment ID": "MW",
@@ -7302,7 +7554,9 @@
         "Timepoint": 27,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "JJ_MW_343 S2 wMel:wWil 3007A 1:1K T27",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T27-3007A"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T27-3007A",
+        "gDNA Conc": 208,
+        "Plate Number": 25
     },
     {
         "Experiment ID": "MW",
@@ -7321,7 +7575,9 @@
         "Timepoint": 27,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "JJ_MW_344 S2 wMel:wWil 3007B 1:1K T27",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T27-3007B"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T27-3007B",
+        "gDNA Conc": 78,
+        "Plate Number": 25
     },
     {
         "Experiment ID": "MW",
@@ -7340,7 +7596,9 @@
         "Timepoint": 27,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "JJ_MW_345 S2 wMel:wWil 3007C 1:1K T27",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T27-3007C"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T27-3007C",
+        "gDNA Conc": 148,
+        "Plate Number": 25
     },
     {
         "Experiment ID": "MW",
@@ -8979,7 +9237,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_430 JW18 wMel:wWil 0204A 1:1 T10",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T10-0204A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T10-0204A",
+        "gDNA Conc": 93.2,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -8998,7 +9258,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_431 JW18 wMel:wWil 0204B 1:1 T10",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T10-0204B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T10-0204B",
+        "gDNA Conc": 79.8,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9017,7 +9279,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_432 JW18 wMel:wWil 0204C 1:1 T10",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T10-0204C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1-T10-0204C",
+        "gDNA Conc": 19.9,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9036,7 +9300,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_433 JW18 wMel:wWil 0204A 1:100 T10",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T10-0204A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T10-0204A",
+        "gDNA Conc": 73.1,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9055,7 +9321,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_434 JW18 wMel:wWil 0204B 1:100 T10",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T10-0204B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T10-0204B",
+        "gDNA Conc": 56.7,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9074,7 +9342,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_435 JW18 wMel:wWil 0204C 1:100 T10",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T10-0204C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:100-T10-0204C",
+        "gDNA Conc": 21.3,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9093,7 +9363,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_436 JW18 wMel:wWil 0204A 1:1K T10",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T10-0204A"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T10-0204A",
+        "gDNA Conc": 59.8,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9112,7 +9384,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_437 JW18 wMel:wWil 0204B 1:1K T10",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T10-0204B"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T10-0204B",
+        "gDNA Conc": 58.6,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9131,7 +9405,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_438 JW18 wMel:wWil 0204C 1:1K T10",
-        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T10-0204C"
+        "Original Sample Name": "Mix-JW18_wMel-wWil-1:1K-T10-0204C",
+        "gDNA Conc": 82.9,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9150,7 +9426,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_439 S2 wMel:wWil 0204A 1:1 T10",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T10-0204A"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T10-0204A",
+        "gDNA Conc": 151,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9169,7 +9447,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_440 S2 wMel:wWil 0204B 1:1 T10",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T10-0204B"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T10-0204B",
+        "gDNA Conc": 125,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9188,7 +9468,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_441 S2 wMel:wWil 0204C 1:1 T10",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T10-0204C"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1-T10-0204C",
+        "gDNA Conc": 92,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9207,7 +9489,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_442 S2 wMel:wWil 0204A 1:100 T10",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T10-0204A"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T10-0204A",
+        "gDNA Conc": 104,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9226,7 +9510,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_443 S2 wMel:wWil 0204B 1:100 T10",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T10-0204B"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T10-0204B",
+        "gDNA Conc": 118,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9245,7 +9531,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_444 S2 wMel:wWil 0204C 1:100 T10",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T10-0204C"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:100-T10-0204C",
+        "gDNA Conc": 139,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9264,7 +9552,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_445 S2 wMel:wWil 0204A 1:1K T10",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T10-0204A"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T10-0204A",
+        "gDNA Conc": 94.1,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9283,7 +9573,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_446 S2 wMel:wWil 0204B 1:1K T10",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T10-0204B"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T10-0204B",
+        "gDNA Conc": 99.2,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9302,7 +9594,9 @@
         "Timepoint": 10,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_447 S2 wMel:wWil 0204C 1:1K T10",
-        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T10-0204C"
+        "Original Sample Name": "Mix-S2_wMel-wWil-1:1K-T10-0204C",
+        "gDNA Conc": 103,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9321,7 +9615,9 @@
         "Timepoint": 7,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_448 Dsim6B wMel:wWil 0204A 1:1 T7",
-        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T7-0204A"
+        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T7-0204A",
+        "gDNA Conc": 60.1,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9340,7 +9636,9 @@
         "Timepoint": 7,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_449 Dsim6B wMel:wWil 0204B 1:1 T7",
-        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T7-0204B"
+        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T7-0204B",
+        "gDNA Conc": 59.9,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "MW",
@@ -9359,7 +9657,9 @@
         "Timepoint": 7,
         "Media Type": "Shields/Sang M3",
         "Sample Label": "SLR_MW_450 Dsim6B wMel:wWil 0204C 1:1 T7",
-        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T7-0204C"
+        "Original Sample Name": "Mix-Dsim6B_wMel-wWil-1:1-T7-0204C",
+        "gDNA Conc": 64.1,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9378,7 +9678,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "SLR_SI_1 JW18 0104A T8",
-        "Original Sample Name": "JW18wRiMer23_0104A_T8"
+        "Original Sample Name": "JW18wRiMer23_0104A_T8",
+        "gDNA Conc": 53,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9397,7 +9699,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "SLR_SI_2 JW18 0104B T8",
-        "Original Sample Name": "JW18wRiMer23_0104B_T8"
+        "Original Sample Name": "JW18wRiMer23_0104B_T8",
+        "gDNA Conc": 49.4,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9416,7 +9720,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "SLR_SI_3 JW18 0104C T8",
-        "Original Sample Name": "JW18wRiMer23_0104C_T8"
+        "Original Sample Name": "JW18wRiMer23_0104C_T8",
+        "gDNA Conc": 46.3,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9435,7 +9741,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "SLR_SI_4 JW18 0804A",
-        "Original Sample Name": "JW18wRi0804A_SLR"
+        "Original Sample Name": "JW18wRi0804A_SLR",
+        "gDNA Conc": 17.8,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9454,7 +9762,9 @@
         "Temp": "26C",
         "Media Type": "",
         "Sample Label": "SLR_SI_5 JW18 0804B 26C",
-        "Original Sample Name": "JW18wRi0804B_26C_SLR"
+        "Original Sample Name": "JW18wRi0804B_26C_SLR",
+        "gDNA Conc": 26,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9473,7 +9783,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "SLR_SI_6 S2 0804A T9",
-        "Original Sample Name": "S2wRiMer23_0804A_T9"
+        "Original Sample Name": "S2wRiMer23_0804A_T9",
+        "gDNA Conc": 26.7,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9492,7 +9804,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "SLR_SI_7 JW18 0804A T9",
-        "Original Sample Name": "JW18wRiMer23_0804A_T9"
+        "Original Sample Name": "JW18wRiMer23_0804A_T9",
+        "gDNA Conc": 23.6,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9511,7 +9825,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "SLR_SI_8 JW18 0804B T9",
-        "Original Sample Name": "JW18wRiMer23_0804B_T9"
+        "Original Sample Name": "JW18wRiMer23_0804B_T9",
+        "gDNA Conc": 31.2,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9530,7 +9846,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "SLR_SI_9 JW18 0804C T9",
-        "Original Sample Name": "JW18wRiMer23_0804C_T9"
+        "Original Sample Name": "JW18wRiMer23_0804C_T9",
+        "gDNA Conc": 36.6,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9549,7 +9867,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "AL_SI_10 JW18 0205B",
-        "Original Sample Name": "JW18wMel0205B_AL"
+        "Original Sample Name": "JW18wMel0205B_AL",
+        "gDNA Conc": 37,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9568,7 +9888,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "AL_SI_11 S2 0205B",
-        "Original Sample Name": "S2wMel0205B_AL"
+        "Original Sample Name": "S2wMel0205B_AL",
+        "gDNA Conc": 64,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9587,7 +9909,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "AL_SI_12 JW18 0905B",
-        "Original Sample Name": "S2wMel0905B_AL"
+        "Original Sample Name": "S2wMel0905B_AL",
+        "gDNA Conc": 80,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9606,7 +9930,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "AL_SI_13 S2 0905B",
-        "Original Sample Name": "JW18wMel0905B_AL"
+        "Original Sample Name": "JW18wMel0905B_AL",
+        "gDNA Conc": 43,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9625,7 +9951,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "AL_SI_14 JW18 1605B",
-        "Original Sample Name": "JW18wMel1605B_AL"
+        "Original Sample Name": "JW18wMel1605B_AL",
+        "gDNA Conc": 73,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9644,7 +9972,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "AL_SI_15 S2 1605B",
-        "Original Sample Name": "S2wMel1605B_AL"
+        "Original Sample Name": "S2wMel1605B_AL",
+        "gDNA Conc": 157,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9663,7 +9993,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "AL_SI_16 JW18 2305B",
-        "Original Sample Name": "JW18wMel2305B_AL"
+        "Original Sample Name": "JW18wMel2305B_AL",
+        "gDNA Conc": 87,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9682,7 +10014,9 @@
         "Temp": "",
         "Media Type": "",
         "Sample Label": "AL_SI_17 S2 2305B",
-        "Original Sample Name": "S2wMel2305B_AL"
+        "Original Sample Name": "S2wMel2305B_AL",
+        "gDNA Conc": 129,
+        "Plate Number": 23
     },
     {
         "Experiment ID": "SI",
@@ -9701,7 +10035,9 @@
         "Temp": "",
         "Media Type": "Shields/Sang M3",
         "Sample Label": "LS_SI_18 JW18 wMel 1408A1",
-        "Original Sample Name": "LS_1 Jw18 wMel 1408A1"
+        "Original Sample Name": "LS_1 Jw18 wMel 1408A1",
+        "gDNA Conc": 63,
+        "Plate Number": 26
     },
     {
         "Experiment ID": "SI",
@@ -9720,7 +10056,9 @@
         "Temp": "",
         "Media Type": "Shields/Sang M3",
         "Sample Label": "LS_SI_19 JW18 wMel 1408B1",
-        "Original Sample Name": "LS_2 Jw18 wMel 1408B1"
+        "Original Sample Name": "LS_2 Jw18 wMel 1408B1",
+        "gDNA Conc": 73,
+        "Plate Number": 26
     },
     {
         "Experiment ID": "SI",
@@ -9739,7 +10077,9 @@
         "Temp": "",
         "Media Type": "Shields/Sang M3",
         "Sample Label": "LS_SI_20 S2 wMel 1408A1",
-        "Original Sample Name": "LS_3 S2 wMel 1408A1"
+        "Original Sample Name": "LS_3 S2 wMel 1408A1",
+        "gDNA Conc": 181,
+        "Plate Number": 26
     },
     {
         "Experiment ID": "SI",
@@ -9758,7 +10098,9 @@
         "Temp": "",
         "Media Type": "Shields/Sang M3",
         "Sample Label": "LS_SI_21 S2 wMel 1408B1",
-        "Original Sample Name": "LS_4 S2 wMel 1408B1"
+        "Original Sample Name": "LS_4 S2 wMel 1408B1",
+        "gDNA Conc": 47,
+        "Plate Number": 26
     },
     {
         "Experiment ID": "SI",
@@ -9777,7 +10119,9 @@
         "Temp": "",
         "Media Type": "Shields/Sang M3",
         "Sample Label": "LS_SI_22 JW18 wMel 1408A2",
-        "Original Sample Name": "LS_5 Jw18 wMel 1408A2"
+        "Original Sample Name": "LS_5 Jw18 wMel 1408A2",
+        "gDNA Conc": 96,
+        "Plate Number": 26
     },
     {
         "Experiment ID": "SI",
@@ -9796,7 +10140,9 @@
         "Temp": "",
         "Media Type": "Shields/Sang M3",
         "Sample Label": "LS_SI_23 JW18 wMel 1408B2",
-        "Original Sample Name": "LS_6 Jw18 wMel 1408B2"
+        "Original Sample Name": "LS_6 Jw18 wMel 1408B2",
+        "gDNA Conc": 162,
+        "Plate Number": 26
     },
     {
         "Experiment ID": "SI",
@@ -9815,7 +10161,9 @@
         "Temp": "",
         "Media Type": "Shields/Sang M3",
         "Sample Label": "LS_SI_24 S2 wMel 1408A2",
-        "Original Sample Name": "LS_7 S2 wMel 1408A2"
+        "Original Sample Name": "LS_7 S2 wMel 1408A2",
+        "gDNA Conc": 236,
+        "Plate Number": 26
     },
     {
         "Experiment ID": "SI",
@@ -9834,7 +10182,9 @@
         "Temp": "",
         "Media Type": "Shields/Sang M3",
         "Sample Label": "LS_SI_25 S2 wMel 1408B2",
-        "Original Sample Name": "LS_8 S2 wMel 1408B2"
+        "Original Sample Name": "LS_8 S2 wMel 1408B2",
+        "gDNA Conc": 53,
+        "Plate Number": 26
     },
     {
         "Experiment ID": "SI",
