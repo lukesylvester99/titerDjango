@@ -39,9 +39,11 @@
                     <select name="cell_line" id="cell_line">
                         <option style="color: #6200EE; font: bolder; font-size: larger;" value="">Cell Line</option>
                         {% for cell_line in cell_lines %}
+                            {% if cell_line %}
                                 <option value="{{ cell_line }}" >
                                     {{ cell_line }}
                                 </option>
+                            {% endif %}
                         {% endfor %}
                     </select>
                 </div>
@@ -66,9 +68,11 @@
                     <select name="infection_status" id="infection_status">
                         <option style="color: #6200EE; font: bolder; font-size: larger;" value="">Wolbachia Infection</option>
                         {% for infection in infections %}
+                            {% if infection %}
                                 <option value="{{ infection }}" >
                                     {{ infection }}
                                 </option>
+                            {% endif %}
                         {% endfor %}
                     </select>
                 </div>
